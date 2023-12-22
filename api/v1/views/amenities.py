@@ -60,3 +60,4 @@ def return_amenities(amenity_id=None):
         storage.new(new_amenity)
         storage.save()
         return jsonify(new_amenity.to_dict()), 201
+    
