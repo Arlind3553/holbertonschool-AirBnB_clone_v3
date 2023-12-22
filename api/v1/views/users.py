@@ -63,4 +63,3 @@ def return_users(user_id=None):
         storage.new(new_user)
         storage.save()
         return jsonify(new_user.to_dict()), 201
-    

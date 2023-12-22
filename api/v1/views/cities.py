@@ -60,4 +60,3 @@ def delete_city(city_id=None):
                 setattr(city, k, data[k])
         storage.save()
         return jsonify(city.to_dict()), 200
-    
